@@ -1,0 +1,76 @@
+/*comentarios*/
+/*selector de etiqueta htm*/
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #aed8f3;
+
+}
+
+h3{
+    color: #0a3e83;
+}
+h1{
+    color: white;
+    background-color: #135b68;
+    width: 300px;
+    font-weight:bold;
+    text-align: center;
+    border: 1px solid white;
+    padding: 2%;
+}
+/*padding es para marcar espacios internos de las caja*/
+/*border es para los bordes de las cajas*/
+/*margin es para los espacios externos de las cajas*/
+
+p {
+    font-weight: bold; /*Negritas*/
+    text-align: center;
+}
+
+ul li{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+    border-radius: 20%; /*Bordes redondeados*/
+    display: block;
+    margin: 0 auto;
+}
+
+.Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+/*selector de tipo clase, reutilizacion*/
+.tarjeta {
+    background-color: #78c4e7;
+    border:1px solid hsl(251, 81%, 29%); /*Con esta instruccion ponemos bordes*/
+    margin: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*selector de tipo id, identificador unico*/
+#Titulo-formulario {
+    color: bisque;
+    text-align: center;
+}
+
+#Imagen-1 {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    display: block;
+}
+#Imagen-2 {
+    width: 20%;
+    height:20%;
+    margin: 0 auto;
+    display: block;
+}
